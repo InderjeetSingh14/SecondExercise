@@ -1,0 +1,485 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+   #main{
+    background-color: #FFFFFF;
+   }
+
+   
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+  .modalbtn {
+   background: #26759F;
+  }
+
+   .well-small{
+      text-align: center;
+   }
+
+   video{
+      border-radius: 50px;
+   }
+
+
+   .card-container{
+      perspective: 700;
+   }
+
+   .card{
+      position: relative;
+      transition: all 0.6s ease;
+      transform-style: preserve-3d;
+   }
+
+   .front,.back{
+      position: absolute;
+      backface-visibility: hidden;
+
+   }
+
+   .card:hover{
+      transform: rotateY(180deg);
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .list-group-item img{
+      clear: both;
+      margin-right: 10px;
+   }
+
+   #sidetab4 ul{
+      background-color: rgba(245, 245, 245, 0.4);
+      margin-left: 20px;
+      border-radius: 20px;
+      padding: 10px;
+      }
+
+      #sidetab4 a{
+       color:black;
+       text-decoration: none;
+       margin-left: 5px;
+      }
+
+        #sidetab4 a:hover{
+       color:grey;
+       background-color: #E8EEED;
+      }
+
+       #sidetab4 li{
+         border-bottom: solid;
+         border-color:#A7ACB1;
+         border-width: 1px;
+       }
+   
+
+   .panel-heading{
+   background-color: #A7ACB1;
+  }
+
+   .panel img{
+      margin:0 0 20px;
+   }
+
+  .panel{
+   border-style: solid;
+   border-radius: 13px 13px 35px 35px;
+   border-width: 3px;
+   border-color: #A7ACB1;
+  }
+
+  .foot{
+      background: linear-gradient(#A7ACB1,grey);
+      border-radius: 15px 15px 70px 15px;
+      padding: 17px;
+   }
+
+   .foot ul{
+      list-style-type: none;
+   }
+
+   .foot li{
+      margin:6px;
+   }
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   #SuccessRoad h1{
+      font-family: 'Galada', cursive;
+      text-align: center;
+   }
+
+   .tagline{
+      text-align: center;
+   }
+  
+   .panel{
+   text-align: center;
+   }
+
+   #SuccessRoad h3{
+   font-family: 'Maitree', serif;
+   }
+
+   .foot a{
+      text-decoration: none;
+      color: #26759F;
+      font-family: 'Maitree', serif;
+   }
+
+   #tabsection h1{
+      text-align: center;
+      color:#26759F;
+      font-family: 'Pacifico', cursive;
+      border-bottom: solid;
+      border-top: solid;
+      border-radius: 30%;
+      border-size:2px;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+  
+   #inputHomesearch{
+      width: 200px;
+   }
+
+   .navbar{
+      background: linear-gradient(grey,#A7ACB1);
+   }
+
+   #nav-container button{
+      background: #0F4885;
+   }
+
+   .navbar-fixed-top h1{
+      color:#26759F;
+      font-family: 'Pacifico', cursive;
+   }
+
+   .nav-collapse{
+      margin-top: 77px;
+   }
+
+   .nav-collapse ul{
+      background-color: rgba(245, 245, 245, 0.4);
+      margin-left: 50px;
+      border-radius: 20px;
+   }
+   
+   .glyphicon{
+      font-size: 15px;
+   }
+   
+   .navbar-fixed-top img{
+      border-radius: 10px;
+      transition: transform .7s ease-out;
+      position: absolute;
+      bottom:-55px;
+      left:110px;
+   }
+
+   .navbar-fixed-top img:hover{
+      transform:scale(1.15);
+   }
+
+   .navbar-fixed-top{
+      border-radius: 15px 15px 30px 90px;
+   }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   
+   #myCarousel{
+      margin-top: 133px;
+   }
+
+   #slide1,#slide2,#slide3,#slide4,#slide5{
+      border-radius: 20px 20px 20px 10px;
+   }
+
+   .carousel-control{
+      margin: 20px 0;
+   }
+
+   .carousel-caption {
+   position: absolute;
+   top:-35px;
+   }
+
+   .carousel-inner h2{
+      color: #A7ACB1;
+      font-family: 'Pacifico', cursive;
+   }
+
+   #myCarousel .item{
+      height: 300px;
+   }
+
+   #slide1{
+      background:url('../../images/Slide_XL (1).jpg')top center no-repeat;
+   }
+
+   #slide2{
+      background:url('../../images/Slide_XL (1).png')top center no-repeat;
+   }
+
+   #slide3{
+      background:url('../../images/Slide_XL (2).jpg')top center no-repeat;
+   }
+
+   #slide4{
+      background:url('../../images/Slide_XL (3).jpg')top center no-repeat;
+   }
+
+   #slide5{
+      background:url('../../images/Slide_XL (4).jpg')top center no-repeat;
+   }
+  
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.thumbnails {
+   margin: 20px 0;
+   text-align: center;
+}
+
+.thumbnail {
+   position: relative;
+}
+
+.thumbnail h3 {
+   font-size: 16px;
+   margin: 0 0 10px;
+   line-height: 20px;
+}
+
+.thumbnail .price {
+   font-size: 22px;
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   padding: 10px;
+}
+
+.thumbnail .price sup {
+   font-weight: normal;
+   font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+   margin-right: 5px;
+}
+
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 360px) {
+
+   .carousel-caption h2{
+      font-size: 20px;
+   }
+
+   .navbar-fixed-top img{
+      display: none;
+   }
+	
+   #slide1{
+      background:url('../../images/Slide_XS (1).jpg')top center no-repeat;
+   }
+
+   #slide2{
+      background:url('../../images/Slide_XS (1).png')top center no-repeat;
+   }
+
+   #slide3{
+      background:url('../../images/Slide_XS (2).jpg')top center no-repeat;
+   }
+
+   #slide4{
+      background:url('../../images/Slide_XS (3).jpg')top center no-repeat;
+   }
+
+   #slide5{
+      background:url('../../images/Slide_XS (4).jpg')top center no-repeat;
+   }
+  
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 361px) and (max-width: 440px) {
+
+   .carousel-caption h2{
+      font-size:25px;
+   }
+
+    #slide1{
+      background:url('../../images/Slide_S (1).jpg')top center no-repeat;
+   }
+
+   #slide2{
+      background:url('../../images/Slide_S (1).png')top center no-repeat;
+   }
+
+   #slide3{
+      background:url('../../images/Slide_S (2).jpg')top center no-repeat;
+   }
+
+   #slide4{
+      background:url('../../images/Slide_S (3).jpg')top center no-repeat;
+   }
+
+   #slide5{
+      background:url('../../images/Slide_S (4).jpg')top center no-repeat;
+   }
+
+}
+
+@media (min-width: 441px) and (max-width: 728px) {
+
+      .navbar-fixed-top img{
+      display: none;
+   }
+
+    #slide1{
+      background:url('../../images/Slide_M (1).jpg')top center no-repeat;
+   }
+
+   #slide2{
+      background:url('../../images/Slide_M (1).png')top center no-repeat;
+   }
+
+   #slide3{
+      background:url('../../images/Slide_M (2).jpg')top center no-repeat;
+   }
+
+   #slide4{
+      background:url('../../images/Slide_M (3).jpg')top center no-repeat;
+   }
+
+   #slide5{
+      background:url('../../images/Slide_M (4).jpg')top center no-repeat;
+   }
+
+}
+
+@media (min-width: 760px) and (max-width: 1200px) {
+
+   #myCarousel{
+      margin-top: 183px;
+   }
+
+   .navbar-fixed-top img{
+      bottom:0px;
+      left:110px;
+
+   }
+
+   .navbar-fixed-top img:hover{
+      transform:scale(.78);
+   }
+
+   }
+
+   @media (max-width: 770px){
+
+   #myCarousel{
+      margin-top: 113px;
+   }
+      .navbar-fixed-top img{
+      display: none;
+   }
+
+   }
+
+/* Large desktop */
+@media (min-width: 729px) and (max-width: 940px) {
+
+   .navbar-fixed-top img{
+       left:110px;
+   }
+
+    #slide1{
+      background:url('../../images/Slide_L (1).jpg')top center no-repeat;
+   }
+
+   #slide2{
+      background:url('../../images/Slide_L (1).png')top center no-repeat;
+   }
+
+   #slide3{
+      background:url('../../images/Slide_L (2).jpg')top center no-repeat;
+   }
+
+   #slide4{
+      background:url('../../images/Slide_L (3).jpg')top center no-repeat;
+   }
+
+   #slide5{
+      background:url('../../images/Slide_L (4).jpg')top center no-repeat;
+   }
+
+}
+
+@media (min-width: 1111px){
+
+   #slide1{
+      background:url('../../images/Slide_XXL (1).jpg')top center no-repeat;
+   }
+
+   #slide2{
+      background:url('../../images/Slide_XXL (1).png')top center no-repeat;
+   }
+
+   #slide3{
+      background:url('../../images/Slide_XXL (2).jpg')top center no-repeat;
+   }
+
+   #slide4{
+      background:url('../../images/Slide_XXL (3).jpg')top center no-repeat;
+   }
+
+   #slide5{
+      background:url('../../images/Slide_XXL (4).jpg')top center no-repeat;
+   }
+
+}
